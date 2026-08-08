@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="120" height="120">
+  <defs>
+    <!-- Circular Path for Text -->
+    <path id="textCircleTop" d="M 25, 100 A 75,75 0 1,1 175,100" />
+    <path id="textCircleBottom" d="M 175, 100 A 75,75 0 0,1 25,100" />
+    
+    <!-- Linear Gradients for Premium Look -->
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F59E0B"/>
+      <stop offset="100%" stop-color="#D97706"/>
+    </linearGradient>
+    <linearGradient id="greenGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#15803D"/>
+      <stop offset="100%" stop-color="#166534"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Outer Black/Dark Background Circle -->
+  <circle cx="100" cy="100" r="96" fill="#0A0F0D" stroke="#15803D" stroke-width="4"/>
+  
+  <!-- Outer Gold Ring -->
+  <circle cx="100" cy="100" r="90" fill="none" stroke="#D97706" stroke-width="2"/>
+  
+  <!-- Top Text: KHWAJA YUNUS ALI UNIVERSITY -->
+  <text font-family="'Segoe UI', Arial, sans-serif" font-size="11.5" font-weight="900" fill="#F59E0B" letter-spacing="1.5">
+    <textPath href="#textCircleTop" startOffset="50%" text-anchor="middle">
+      KHWAJA YUNUS ALI UNIVERSITY
+    </textPath>
+  </text>
+  
+  <!-- Bottom Text: QUEST FOR KNOWLEDGE -->
+  <text font-family="'Segoe UI', Arial, sans-serif" font-size="11" font-weight="900" fill="#F59E0B" letter-spacing="2">
+    <textPath href="#textCircleBottom" startOffset="50%" text-anchor="middle">
+      QUEST FOR KNOWLEDGE
+    </textPath>
+  </text>
+
+  <!-- Decorative Stars -->
+  <path d="M 23 100 L 26 95 L 31 97 L 27 101 L 29 106 L 24 103 L 20 106 L 21 101 L 17 97 L 22 95 Z" fill="#22C55E"/>
+  <path d="M 177 100 L 180 95 L 185 97 L 181 101 L 183 106 L 178 103 L 174 106 L 175 101 L 171 97 L 176 95 Z" fill="#22C55E"/>
+
+  <!-- Inner Circle Border -->
+  <circle cx="100" cy="100" r="68" fill="#042F1A" stroke="#F59E0B" stroke-width="2"/>
+
+  <!-- Roof / Temple Roof Graphic -->
+  <path d="M 46 80 L 100 50 L 154 80 L 146 84 L 100 58 L 54 84 Z" fill="#F59E0B"/>
+  
+  <!-- KYAU Bold Green Text with Gold Outline -->
+  <text x="100" y="120" font-family="'Impact', 'Arial Black', sans-serif" font-size="44" font-weight="900" fill="#16A34A" stroke="#F59E0B" stroke-width="1.5" text-anchor="middle" letter-spacing="1">
+    KYAU
+  </text>
+
+  <!-- Est: 2012 Badge -->
+  <text x="100" y="146" font-family="'Segoe UI', Arial, sans-serif" font-size="12" font-weight="bold" fill="#F3F4F6" text-anchor="middle" letter-spacing="1">
+    Est: 2012
+  </text>
+</svg>

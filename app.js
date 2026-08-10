@@ -112,7 +112,15 @@ const outputs = {
 // 4. INITIALIZATION
 // ==========================================================================
 
+function getResponsiveZoom() {
+    if (window.innerWidth <= 480) return 0.52;
+    if (window.innerWidth <= 700) return 0.62;
+    if (window.innerWidth <= 900) return 0.72;
+    return 0.85;
+}
+
 document.addEventListener('DOMContentLoaded', () => {
+    zoomScale = getResponsiveZoom();
     populateStudentDropdowns();
     populateCoursePresets();
     const designSelect = document.getElementById('pageDesignSelect');
@@ -376,9 +384,20 @@ function setupEventListeners() {
     document.getElementById('btnDownloadSingle').addEventListener('click', downloadSinglePdf);
     document.getElementById('btnDownloadBulk').addEventListener('click', downloadBulkPdfs);
     const shareBtn = document.getElementById('btnShareWhatsApp');
+    const shareToolbarBtn = document.getElementById('btnShareWhatsAppToolbar');
     const printBtn = document.getElementById('btnPrintPage');
+    const printToolbarBtn = document.getElementById('btnPrintPageToolbar');
     if (shareBtn) shareBtn.addEventListener('click', shareWhatsApp);
+    if (shareToolbarBtn) shareToolbarBtn.addEventListener('click', shareWhatsApp);
     if (printBtn) printBtn.addEventListener('click', () => window.print());
+    if (printToolbarBtn) printToolbarBtn.addEventListener('click', () => window.print());
+
+    window.addEventListener('resize', () => {
+        if (window.innerWidth <= 900) {
+            zoomScale = getResponsiveZoom();
+            updateZoom();
+        }
+    });
 
     // Zoom Controls
     document.getElementById('btnZoomIn').addEventListener('click', () => {

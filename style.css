@@ -721,6 +721,8 @@ body {
     transition: transform 0.2s ease-out;
     transform-origin: top center;
     box-shadow: 0 20px 40px rgba(0, 0, 0, 0.6);
+    width: fit-content;
+    max-width: 100%;
 }
 
 /* ==========================================================================
@@ -944,6 +946,38 @@ body {
 
 /* Responsive Media Queries */
 @media (max-width: 900px) {
+    .app-header {
+        height: auto;
+        padding: 12px 16px;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 10px;
+    }
+
+    .header-left {
+        width: 100%;
+    }
+
+    .brand-logo {
+        width: 100%;
+        align-items: flex-start;
+    }
+
+    .brand-text h1 {
+        font-size: 0.95rem;
+    }
+
+    .header-actions {
+        width: 100%;
+        justify-content: space-between;
+        gap: 8px;
+    }
+
+    .header-actions button {
+        flex: 1;
+        justify-content: center;
+    }
+
     .app-layout {
         grid-template-columns: 1fr;
         height: auto;
@@ -955,13 +989,86 @@ body {
         border-right: none;
         border-bottom: 1px solid var(--border-dark);
     }
-    
-    .canvas-scroll-area {
-        padding: 20px 10px;
+
+    .form-content {
+        padding: 16px 12px;
+    }
+
+    .grid-1-1,
+    .grid-2-1 {
+        grid-template-columns: 1fr;
+    }
+
+    .bulk-header-box {
+        display: block;
+    }
+
+    .bulk-actions-mini {
+        margin-top: 10px;
+        justify-content: flex-start;
+    }
+
+    .preview-toolbar {
+        padding: 8px 12px;
+        min-height: 48px;
+        height: auto;
+        align-items: flex-start;
+        gap: 8px;
+        flex-wrap: wrap;
+    }
+
+    .toolbar-status {
+        display: none;
+    }
+
+    .toolbar-controls {
+        width: 100%;
+        justify-content: flex-end;
+        flex-wrap: wrap;
     }
     
-    #cover-wrapper {
-        transform: scale(0.45);
+    .canvas-scroll-area {
+        padding: 18px 8px 28px;
+    }
+
+    .cover-wrapper {
+        max-width: 100%;
+    }
+}
+
+@media (max-width: 520px) {
+    .brand-text h1 {
+        font-size: 0.82rem;
+    }
+
+    .badge-tag {
+        font-size: 9px;
+    }
+
+    .header-actions {
+        gap: 6px;
+    }
+
+    .btn-header-ghost,
+    .btn-header-accent {
+        padding: 8px 10px;
+        font-size: 10px;
+    }
+
+    .tab-btn {
+        font-size: 10px;
+        padding: 10px 8px;
+    }
+
+    .btn-primary-emerald,
+    .btn-primary-amber {
+        font-size: 12px;
+        padding: 12px 10px;
+    }
+
+    .toolbar-btn {
+        padding: 6px 8px;
+        font-size: 11px;
     }
 }
 

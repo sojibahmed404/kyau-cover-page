@@ -8,42 +8,41 @@
 // ==========================================================================
 
 const CSE_18TH_BATCH_STUDENTS = [
-    { studentId: '6224205101001', name: 'Md. Rakibul Islam' },
-    { studentId: '6224205101002', name: 'Siam Hossain' },
-    { studentId: '6224205101003', name: 'Md. Radoun Hossin Mukta' },
-    { studentId: '6224205101004', name: 'Md. Shahariar Ahmed Kanon' },
-    { studentId: '6224205101005', name: 'Mst. Anamika Jahan' },
-    { studentId: '6224205101006', name: 'Md. Sojib Ahmed' },
-    { studentId: '6224205101007', name: 'Mst. Ananna Khandaker' },
-    { studentId: '6224205101008', name: 'Md. Rakib Hasan Riyad' },
-    { studentId: '6224205101010', name: 'Most. Khadija Khatun' },
-    { studentId: '6224205101011', name: 'Md. Rezwan Ahmed Ratul' },
-    { studentId: '6224205101012', name: 'Maruf Ibna Abdullah Rifat' },
-    { studentId: '6224205101013', name: 'Md. Rabbi' },
-    { studentId: '6224205101014', name: 'Mst. Mushkat Jahan Shila' },
-    { studentId: '6224205101016', name: 'Ijaj Ahmed Rafi' },
-    { studentId: '6224205101017', name: 'Md. Sabbir Hossain Rahat' },
-    { studentId: '6224205101018', name: 'Abid Hasan Hujaifa' },
-    { studentId: '6224205101019', name: 'Sabiha Rumman Medha' },
-    { studentId: '6224205101020', name: 'Md. Intaj Hassan Nibir' },
-    { studentId: '6224205101021', name: 'Md. Asif Foysal' },
-    { studentId: '6224205101023', name: 'Fardin Khan Sadi' },
-    { studentId: '6224205101024', name: 'Abir Deb' },
-    { studentId: '6224205101025', name: 'Bashudeb Kumer Paul' },
-    { studentId: '6224205101026', name: 'Md. Abdur Rahim Ratul' },
-    { studentId: '6224205101027', name: 'Tahsin Tasnim Tandra' },
-    { studentId: '6224205101028', name: 'Maream' },
-    { studentId: '6224205101029', name: 'Md. Imran Hassain' },
-    { studentId: '6224205101030', name: 'Abu Sowad Mohammad Ali Siam' },
-    { studentId: '6224205101031', name: 'Fatima Rahman Shoshi' },
-    { studentId: '6224205101032', name: 'Rukaiya Rafiq Ulfa' },
-    { studentId: '6224205101033', name: 'S. M. Salman Farshi' },
-    { studentId: '6224205101034', name: 'Tawhidur Rahman Shishir' },
-    { studentId: '6224205101035', name: 'Md. Samiul Islam Shihab' },
-    { studentId: '6224205101036', name: 'Md. Abu Raihan' },
-    { studentId: '6224205101037', name: 'Md. Shimul Sarkar' },
-    { studentId: '6224205101038', name: 'Khairun Nahar Sara' },
-    { studentId: '6224205101039', name: 'Md. Montasir Monir Alif' }
+    { studentId: '06224205101001', name: 'Md. Rakibul Islam' },
+    { studentId: '06224205101003', name: 'Md. Radoun Hossin Mukta' },
+    { studentId: '06224205101004', name: 'Md. Shahariar Ahmed Kanon' },
+    { studentId: '06224205101005', name: 'Mst. Anamika Jahan' },
+    { studentId: '06224205101006', name: 'Md. Sojib Ahmed' },
+    { studentId: '06224205101007', name: 'Mst. Ananna Khandaker' },
+    { studentId: '06224205101008', name: 'Md. Rakib Hasan Riyad' },
+    { studentId: '06224205101010', name: 'Most. Khadija Khatun' },
+    { studentId: '06224205101011', name: 'Md. Rezwan Ahmed Ratul' },
+    { studentId: '06224205101012', name: 'Maruf Ibna Abdullah Rifat' },
+    { studentId: '06224205101013', name: 'Md. Rabbi' },
+    { studentId: '06224205101014', name: 'Mst. Mushkat Jahan Shila' },
+    { studentId: '06224205101016', name: 'Ijaj Ahmed Rafi' },
+    { studentId: '06224205101017', name: 'Md. Sabbir Hossain Rahat' },
+    { studentId: '06224205101018', name: 'Abid Hasan Hujaifa' },
+    { studentId: '06224205101019', name: 'Sabiha Rumman Medha' },
+    { studentId: '06224205101020', name: 'Md. Intaj Hassan Nibir' },
+    { studentId: '06224205101021', name: 'Md. Asif Foysal' },
+    { studentId: '06224205101023', name: 'Fardin Khan Sadi' },
+    { studentId: '06224205101024', name: 'Abir Deb' },
+    { studentId: '06224205101025', name: 'Bashudeb Kumer Paul' },
+    { studentId: '06224205101026', name: 'Md. Abdur Rahim Ratul' },
+    { studentId: '06224205101027', name: 'Tahsin Tasnim Tandra' },
+    { studentId: '06224205101028', name: 'Maream' },
+    { studentId: '06224205101029', name: 'Md. Imran Hassain' },
+    { studentId: '06224205101030', name: 'Abu Sowad Mohammad Ali Siam' },
+    { studentId: '06224205101031', name: 'Fatima Rahman Shoshi' },
+    { studentId: '06224205101032', name: 'Rukaiya Rafiq Ulfa' },
+    { studentId: '06224205101033', name: 'S. M. Salman Farshi' },
+    { studentId: '06224205101034', name: 'Tawhidur Rahman Shishir' },
+    { studentId: '06224205101035', name: 'Md. Samiul Islam Shihab' },
+    { studentId: '06224205101036', name: 'Md. Abu Raihan' },
+    { studentId: '06224205101037', name: 'Md. Shimul Sarkar' },
+    { studentId: '06224205101038', name: 'Khairun Nahar Sara' },
+    { studentId: '06224205101039', name: 'Md. Montasir Monir Alif' }
 ];
 
 const KYAU_COURSES_LIST = [
@@ -145,7 +144,7 @@ document.addEventListener('DOMContentLoaded', () => {
 function populateStudentDropdowns() {
     const optgroup = document.getElementById('optgroupStudents');
     const checkboxList = document.getElementById('studentCheckboxList');
-    
+
     optgroup.innerHTML = '';
     checkboxList.innerHTML = '';
 
@@ -189,7 +188,7 @@ function populateStudentDropdowns() {
 function populateCoursePresets() {
     const select = document.getElementById('selectCoursePreset');
     select.innerHTML = '<option value="">-- Choose Preset CSE Course --</option>';
-    
+
     KYAU_COURSES_LIST.forEach(course => {
         const opt = document.createElement('option');
         opt.value = course.code;
@@ -204,7 +203,7 @@ function populateCoursePresets() {
             inputs.ctitle.value = found.title;
             inputs.tname.value = found.teacher;
             inputs.tdesig.value = found.designation;
-            
+
             // Auto detect lab report vs assignment
             if (found.title.toLowerCase().includes('lab')) {
                 inputs.type.value = 'Lab Report';
@@ -266,7 +265,7 @@ function updatePreview() {
 
     outputs.tname.textContent = inputs.tname.value;
     outputs.tdesig.textContent = inputs.tdesig.value;
-    
+
     // Clean up "Department of Department of CSE" duplicate text
     let deptVal = inputs.tdept.value.trim();
     deptVal = deptVal.replace(/^Department of\s+/i, '');
@@ -560,7 +559,7 @@ async function downloadSinglePdf() {
     if (isGenerating) return;
     const element = document.getElementById('cover-page');
     const filename = getPdfFilename(inputs.sname.value, inputs.ccode.value);
-    
+
     isGenerating = true;
     const btn = document.getElementById('btnDownloadSingle');
     const origHtml = btn.innerHTML;
@@ -593,7 +592,7 @@ async function downloadSinglePdf() {
 // Bulk PDF Batch Generation Loop
 async function downloadBulkPdfs() {
     if (isGenerating) return;
-    
+
     let targetList = [];
 
     if (selectedBatch === '18th') {
@@ -631,16 +630,16 @@ async function downloadBulkPdfs() {
     }
 
     isGenerating = true;
-    
+
     const btn = document.getElementById('btnDownloadBulk');
     const progressWrapper = document.getElementById('bulkProgressWrapper');
     const progressText = document.getElementById('bulkProgressText');
     const percentText = document.getElementById('bulkPercentText');
     const progressBar = document.getElementById('bulkProgressBar');
-    
+
     btn.disabled = true;
     progressWrapper.classList.remove('hidden');
-    
+
     showToast(`Starting bulk download for ${targetList.length} students... Browser may ask for "Allow" on multiple downloads.`, 'info');
 
     for (let i = 0; i < targetList.length; i++) {
@@ -681,7 +680,7 @@ async function downloadBulkPdfs() {
     }
 
     showToast(`Successfully generated all ${targetList.length} PDFs!`, 'success');
-    
+
     // Reset UI
     isGenerating = false;
     btn.disabled = false;
